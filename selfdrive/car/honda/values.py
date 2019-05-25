@@ -28,8 +28,8 @@ class BP:
 
 AUDIO_HUD = {
   AudibleAlert.none: (BP.MUTE, CM.MUTE),
-  AudibleAlert.chimeEngage: (BP.SINGLE, CM.MUTE),
-  AudibleAlert.chimeDisengage: (BP.SINGLE, CM.MUTE),
+  AudibleAlert.chimeEngage: (BP.MUTE, CM.MUTE),
+  AudibleAlert.chimeDisengage: (BP.MUTE, CM.MUTE),
   AudibleAlert.chimeError: (BP.MUTE, CM.DOUBLE),
   AudibleAlert.chimePrompt: (BP.MUTE, CM.SINGLE),
   AudibleAlert.chimeWarning1: (BP.MUTE, CM.DOUBLE),
